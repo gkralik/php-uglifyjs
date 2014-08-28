@@ -3,6 +3,7 @@
     "description": "PHP Javascript packer",
     "minimum-stability": "stable",
     "license": "LGPL 2.1",
+    "type": "library",
     "authors": [
         {
             "name": "Gregor Kralik",
