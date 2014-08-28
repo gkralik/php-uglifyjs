@@ -27,7 +27,7 @@ $packed = $myPacker->pack();
 
 ###Constructor parameters:
 Name|Description
-----------------
+----|------------
 `$script` | the JavaScript to pack, string.
 `$encoding` | level of encoding, int or string: 0,10,62,95 or 'None', 'Numeric', 'Normal', 'High ASCII'. Default: 62.
 `$fastDecode` | include the fast decoder in the packed result, boolean. Default : true.
