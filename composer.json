@@ -1,0 +1,17 @@
+{
+    "name": "gkralik/php-uglifyjs",
+    "description": "PHP Javascript packer",
+    "minimum-stability": "stable",
+    "license": "LGPL 2.1",
+    "authors": [
+        {
+            "name": "Gregor Kralik",
+            "email": "g.kralik@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GK\\": "lib/"
+        }
+    }
+}
