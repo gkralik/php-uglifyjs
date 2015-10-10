@@ -2,7 +2,7 @@
 
 ##Installation
 
-Add `"gkralik/php-uglifyjs": "0.5.0"` to your `composer.json` file and run `php composer.phar update`.
+Add `"gkralik/php-uglifyjs": "^1.0.0"` to your `composer.json` file and run `php composer.phar update`.
 
 ##Usage
 
