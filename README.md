@@ -1,10 +1,16 @@
-#php-uglifyjs
+# php-uglifyjs
 
-##Installation
+*If you like/use it and want to donate:*
+```
+LTC: LQ9XajbxJY2wxC44dwHTLCQCjoAmx2Uvfg
+BTC: 188v8pWMHigH9dGahdxPyhYJntanzhQEbY
+```
+
+## Installation
 
 Add `"gkralik/php-uglifyjs": "^1.0.0"` to your `composer.json` file and run `php composer.phar install`.
 
-##Usage
+## Usage
 
 ```php
 $myPacker = new GK\JavascriptPacker($script, 62, true, false);
@@ -25,7 +31,7 @@ $myPacker = new JavaScriptPacker($script);
 $packed = $myPacker->pack();
 ```
 
-###Constructor parameters:
+### Constructor parameters:
 Name|Description
 ----|------------
 `$script` | the JavaScript to pack, string.
@@ -37,6 +43,6 @@ The `pack()` method return the compressed JavasScript, as a string.
 
 See http://dean.edwards.name/packer/usage/ for more information.
 
-##Acknowledgments
+## Acknowledgments
 
 Based on JavaScriptPacker by Nicolas Martin (http://joliclic.free.fr/php/javascript-packer/en/).
