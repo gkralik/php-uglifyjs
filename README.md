@@ -1,11 +1,5 @@
 # php-uglifyjs
 
-*If you like/use it and want to donate:*
-```
-LTC: LQ9XajbxJY2wxC44dwHTLCQCjoAmx2Uvfg
-BTC: 18edm8meRzxYn2znxHYj1McjvWvV53GTAY
-```
-
 ## Installation
 
 Add `"gkralik/php-uglifyjs": "^1.0.0"` to your `composer.json` file and run `php composer.phar install`.
