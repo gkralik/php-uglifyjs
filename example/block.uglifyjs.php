@@ -40,7 +40,7 @@ function smarty_block_uglifyjs($params, $content, $template, &$repeat)
                 $packed = preg_replace_callback(
                     '#<script(.*?)>(.*?)</script>#is',
                     function ($matches) {
-                        $packer = new GK\JavaScriptPacker($matches[2]);
+                        $packer = new GK\JavascriptPacker($matches[2]);
                         return sprintf('<script%s>%s</script>', $matches[1], $packer->pack());
                     },
                     $content
