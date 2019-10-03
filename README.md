@@ -2,7 +2,9 @@
 
 ## Installation
 
-Add `"gkralik/php-uglifyjs": "^1.0.0"` to your `composer.json` file and run `php composer.phar install`.
+```
+composer require "gkralik/php-uglifyjs:^1.0"
+```
 
 ## Usage
 
@@ -21,7 +23,7 @@ $packed = $myPacker->pack();
 or (default values)
 
 ```php
-$myPacker = new JavaScriptPacker($script);
+$myPacker = new GK\JavascriptPacker($script);
 $packed = $myPacker->pack();
 ```
 
